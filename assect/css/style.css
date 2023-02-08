@@ -3,7 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+/*topad start*/
+.tophead{
+    position:absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+@media only all and (max-width:991px){
+    .tophead{
+        display: none;
+    }
+}
 .backgroundhead{
     background-color: white;
     box-shadow: 0px 0px 3px;
@@ -17,3 +29,41 @@
 .backgroundhead ul li a{
     height: 30px;
 }
+
+/*Tophead end*/
+/*navbar start*/
+
+.navbar{
+    position: absolute;
+    
+    top: 55px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+}
+@media only all and (max-width:991px){
+    .navbar{
+        position: absolute;
+        
+        top: 55px;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+    }
+}
+
+/*navbar end*/
+
+
+/*Carosel*/
+.carousel .carousel-caption{
+    top: 40%;
+    left: 9%;
+    text-align: left;
+    
+    text-align: left;
+}
+/*Carsole end*/
